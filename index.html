@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reliable Auto Repair | Home</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar fade-in">
+        <div class="nav-inner">
+            <h2 class="logo">Reliable Auto Repair</h2>
+
+            <div class="mobile-toggle">☰</div>
+
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero fade-in">
+        <div class="hero-content">
+            <p class="eyebrow">Norfolk • Full‑Service Auto Shop</p>
+            <h1>Keep Your Car Running Like New.</h1>
+            <p class="hero-sub">
+                Honest diagnostics, fast turnaround, and fair pricing—so you can drive with confidence every day.
+            </p>
+            <div class="hero-actions">
+                <a href="services.html" class="btn primary">View Services</a>
+                <a href="#contact" class="btn ghost">Request a Quote</a>
+            </div>
+            <div class="hero-tags">
+                <span>✓ ASE Certified</span>
+                <span>✓ Same‑Day Appointments</span>
+                <span>✓ Warranty‑Friendly</span>
+            </div>
+        </div>
+
+        <div class="hero-card glass fade-in">
+            <h3>Today’s Availability</h3>
+            <p>Limited slots left for:</p>
+            <ul>
+                <li>Oil Changes</li>
+                <li>Brake Inspections</li>
+                <li>Check Engine Diagnostics</li>
+            </ul>
+            <a href="#contact" class="btn small">Book a Time</a>
+        </div>
+    </header>
+
+    <!-- Highlight Strip -->
+    <section class="highlight-strip fade-in">
+        <p>Serving Norfolk drivers with trusted repairs and maintenance for over <strong>10+ years</strong>.</p>
+    </section>
+
+    <!-- Services Preview -->
+    <section class="services-preview fade-in">
+        <div class="section-header">
+            <h2>Core Services</h2>
+            <p>Everything your car needs, handled in one shop.</p>
+        </div>
+
+        <div class="services-grid">
+            <div class="service-card glass">
+                <h3>Oil & Filter Change</h3>
+                <p>Protect your engine with high‑quality oil and filters, installed by professionals.</p>
+                <span class="pill">30–45 min</span>
+            </div>
+
+            <div class="service-card glass">
+                <h3>Brake Service</h3>
+                <p>Inspections, pad replacement, and rotor resurfacing to keep you stopping safely.</p>
+                <span class="pill">Safety First</span>
+            </div>
+
+            <div class="service-card glass">
+                <h3>Engine Diagnostics</h3>
+                <p>Check engine light on? We’ll scan, diagnose, and explain everything clearly.</p>
+                <span class="pill">Advanced Tools</span>
+            </div>
+
+            <div class="service-card glass">
+                <h3>Tire & Alignment</h3>
+                <p>Rotation, balancing, and alignment checks to extend tire life and improve handling.</p>
+                <span class="pill">Smooth Ride</span>
+            </div>
+        </div>
+
+        <div class="center-link">
+            <a href="services.html" class="btn ghost">See Full Service List</a>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="gallery-section fade-in">
+        <div class="section-header">
+            <h2>In the Shop</h2>
+            <p>Real work, real tools, real results.</p>
+        </div>
+        <div class="gallery">
+            <img src="images/car.jpg" alt="Car in shop">
+            <img src="images/mechanic1.jpg" alt="Mechanic working">
+            <img src="images/mechanic2.jpg" alt="Engine repair">
+        </div>
+    </section>
+
+    <!-- Contact / Quote -->
+    <section id="contact" class="contact-section fade-in">
+        <div class="section-header">
+            <h2>Request a Quote</h2>
+            <p>Tell us what’s going on with your vehicle and we’ll follow up with options.</p>
+        </div>
+
+        <form class="contact-form glass">
+            <div class="form-row">
+                <div class="form-field">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" placeholder="Chris Holmes">
+                </div>
+                <div class="form-field">
+                    <label for="phone">Phone Number</label>
+                    <input type="text" id="phone" placeholder="(555) 123‑4567">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-field">
+                    <label for="vehicle">Vehicle</label>
+                    <input type="text" id="vehicle" placeholder="2015 Honda Civic EX">
+                </div>
+                <div class="form-field">
+                    <label for="service">Service Needed</label>
+                    <select id="service">
+                        <option value="">Select a service</option>
+                        <option>Oil Change</option>
+                        <option>Brake Inspection</option>
+                        <option>Check Engine Light</option>
+                        <option>Tire / Alignment</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-field">
+                <label for="details">Describe the issue</label>
+                <textarea id="details" rows="4" placeholder="Tell us what you’re noticing—noises, lights, smells, or changes in how it drives."></textarea>
+            </div>
+
+            <button type="submit" class="btn primary full-width">Submit Request</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="fade-in">
+        <p>© <span id="year"></span> Reliable Auto Repair • Norfolk, VA</p>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
